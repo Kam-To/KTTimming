@@ -19,7 +19,7 @@ int main(int argc, const char * argv[]) {
     KT::Timer MainTimer("Main", "timming cost in main function scope");
     
     {
-        KT::Timer HeavyWorkTimer("Heavywork", "timming cost closest scope");
+        KT::Timer HeavyWorkTimer("Heavywork", "timming cost in closest scope");
         HeavyWork();
     }
     
