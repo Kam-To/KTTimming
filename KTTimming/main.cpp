@@ -9,7 +9,7 @@
 #include "Timer.hpp"
 
 void HeavyWork() {
-    for (int i = 0; i < 999999; i++) {
+    for (int i = 1; i < 999999; i++) {
         __unused int j = rand() % i;
     }
 }
